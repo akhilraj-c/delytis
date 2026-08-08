@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DELYTIS | Premium Anti-Tarnish Jewellery</title>
+    <meta name="description" content="Discover DELYTIS, a premium anti-tarnish jewellery brand featuring elegant necklaces, bracelets, bangles and earrings. Explore the collection and connect with DELYTIS on Instagram.">
+    <meta name="keywords" content="DELYTIS jewellery, anti-tarnish jewellery, stainless steel jewellery, anti-tarnish necklaces, anti-tarnish bracelets, anti-tarnish bangles, anti-tarnish earrings, premium jewellery, everyday jewellery, DELYTIS Instagram">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.instagram.com/_delytis_">
+    <meta property="og:title" content="DELYTIS | Premium Anti-Tarnish Jewellery">
+    <meta property="og:description" content="Discover DELYTIS, a premium anti-tarnish jewellery brand featuring elegant necklaces, bracelets, bangles and earrings.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=1200&auto=format&fit=crop">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DELYTIS | Premium Anti-Tarnish Jewellery">
+    <meta name="twitter:description" content="Discover DELYTIS, a premium anti-tarnish jewellery brand featuring elegant necklaces, bracelets, bangles and earrings.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=1200&auto=format&fit=crop">
+
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Brand",
+      "name": "DELYTIS",
+      "description": "Premium anti-tarnish jewellery made for effortless everyday elegance.",
+      "url": "https://www.instagram.com/_delytis_",
+      "sameAs": [
+        "https://www.instagram.com/_delytis_"
+      ],
+      "category": "Anti-Tarnish Jewellery"
+    }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Cinzel:wght@400;500;600;700&family=Marcellus&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        logo: ['"Cormorant Garamond"', '"Playfair Display"', 'serif'],
+                        brand: ['"Cinzel"', 'serif'],
+                        serif: ['"Marcellus"', '"Cormorant Garamond"', 'serif'],
+                        sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            gold: '#C5A059',
+                            softGold: '#E2C99D',
+                            brightGold: '#D4AF37',
+                            bronze: '#7E5E2A',
+                            cream: '#FAF7F2',
+                            charcoal: '#121212',
+                            darkGray: '#1C1C1C',
+                            midGray: '#2A2A2A',
+                            muted: '#8E8E93',
+                            // Luxury Faded Pastel Palette
+                            pastelBlush: '#F7ECE1',
+                            pastelRose: '#F3E5E3',
+                            pastelGold: '#EDE1D1',
+                            pastelSage: '#E2E8E4',
+                            pastelCream: '#FAF7F2',
+                            pastelBorder: '#E8DFD5',
+                            darkPastel: '#1A1817'
+                        }
+                    },
+                    letterSpacing: {
+                        widest: '.25em',
+                        superwide: '.35em',
+                        ultra: '.45em',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Custom CSS Styles -->
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            transition: background-color 0.4s ease, color 0.4s ease;
+        }
+
+        .font-logo-title {
+            font-family: 'Cormorant Garamond', serif;
+            letter-spacing: 0.04em;
+        }
+
+        .font-brand-title {
+            font-family: 'Cinzel', serif;
+            letter-spacing: 0.22em;
+        }
+
+        .font-serif-title {
+            font-family: 'Marcellus', serif;
+        }
+
+        /* Ambient Faded Color Glow Orbs */
+        .ambient-glow-1 {
+            background: radial-gradient(circle, rgba(197, 160, 89, 0.18) 0%, rgba(247, 236, 225, 0.08) 50%, transparent 80%);
+        }
+        .dark .ambient-glow-1 {
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.12) 0%, rgba(18, 18, 18, 0) 70%);
+        }
+
+        .ambient-glow-2 {
+            background: radial-gradient(circle, rgba(243, 229, 227, 0.3) 0%, rgba(226, 232, 228, 0.1) 60%, transparent 80%);
+        }
+        .dark .ambient-glow-2 {
+            background: radial-gradient(circle, rgba(197, 160, 89, 0.08) 0%, rgba(26, 24, 23, 0) 75%);
+        }
+
+        /* Smooth scroll transitions */
+        .fade-in-up {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+
+        .fade-in-up.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Accelerated Background Hero Transition Effects */
+        .hero-bg-slide {
+            position: absolute;
+            inset: 0;
+            opacity: 0;
+            transition: opacity 0.8s ease-in-out, transform 4s ease-out;
+            transform: scale(1.04);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .hero-bg-slide.active {
+            opacity: 0.45;
+            transform: scale(1);
+        }
+
+        .dark .hero-bg-slide.active {
+            opacity: 0.28;
+        }
+
+        /* Pastel Soft Glow Pill */
+        .pastel-glow {
+            background: linear-gradient(135deg, rgba(247,236,225,0.9) 0%, rgba(226,232,228,0.9) 100%);
+        }
+
+        .dark .pastel-glow {
+            background: linear-gradient(135deg, rgba(35,32,32,0.85) 0%, rgba(26,24,23,0.85) 100%);
+        }
+
+        /* Custom Hover Links */
+        .hover-underline {
+            position: relative;
+        }
+        .hover-underline::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 1px;
+            bottom: -2px;
+            left: 0;
+            background-color: currentColor;
+            transition: width 0.3s ease;
+        }
+        .hover-underline:hover::after {
+            width: 100%;
+        }
+
+        /* Mobile Glass Dropdown */
+        .mobile-glass-dropdown {
+            background: rgba(250, 247, 242, 0.98);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        .dark .mobile-glass-dropdown {
+            background: rgba(18, 18, 18, 0.98);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+
+        /* Respect Reduced Motion */
+        @media (prefers-reduced-motion: reduce) {
+            .hero-bg-slide {
+                transition: opacity 0.3s ease;
+                transform: none !important;
+            }
+            .fade-in-up {
+                transition: none;
+                opacity: 1;
+                transform: none;
+            }
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-brand-pastelCream text-neutral-900 dark:bg-brand-charcoal dark:text-brand-cream transition-colors duration-400 overflow-x-hidden selection:bg-brand-softGold selection:text-black">
+
+    <!-- HEADER / NAVIGATION (UNBOXED, FLOATING DIRECTLY ABOVE LANDING IMAGE, NON-STICKY) -->
+    <header id="main-header" class="absolute top-0 left-0 right-0 z-40 w-full px-6 md:px-12 py-6 sm:py-8 transition-colors duration-300">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            
+            <!-- Left: ENHANCED "Delytis JEWELLERY" BRAND LOGO -->
+            <a href="#home" class="group flex items-center gap-2 focus:outline-none py-1" aria-label="Delytis Jewellery Homepage">
+                <div class="flex flex-col items-start leading-none transition-transform duration-300 group-hover:scale-[1.02]">
+                    <div class="relative flex items-center">
+                        <span class="font-logo-title text-3xl sm:text-4xl font-normal tracking-wide text-brand-bronze dark:text-brand-softGold transition-colors">
+                            Delytis
+                        </span>
+                        <!-- Custom Sparkle Star Accent matching exact brand logo design -->
+                        <svg class="w-3.5 h-3.5 -ml-0.5 -mt-3.5 text-brand-gold fill-current animate-pulse" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 0L14.59 9.41L24 12L14.59 14.59L12 24L9.41 14.59L0 12L9.41 9.41L12 0Z"/>
+                        </svg>
+                    </div>
+                    <span class="text-[9px] sm:text-[10px] tracking-[0.38em] uppercase font-light text-brand-bronze/80 dark:text-neutral-400 mt-1 pl-0.5">
+                        JEWELLERY
+                    </span>
+                </div>
+            </a>
+
+            <!-- Center/Right Desktop Navigation (Clean, Unboxed) -->
+            <nav class="hidden md:flex items-center gap-9 text-xs uppercase tracking-widest font-light text-neutral-800 dark:text-neutral-200" aria-label="Main Navigation">
+                <a href="#home" class="hover-underline hover:text-black dark:hover:text-white transition-colors py-1">Home</a>
+                <a href="#quality" class="hover-underline hover:text-black dark:hover:text-white transition-colors py-1">Quality</a>
+                <a href="#collections" class="hover-underline hover:text-black dark:hover:text-white transition-colors py-1">Collections</a>
+                <a href="#instagram" class="hover-underline hover:text-black dark:hover:text-white transition-colors py-1">Instagram</a>
+            </nav>
+
+            <!-- Right: Theme Toggle & Direct Instagram Link -->
+            <div class="flex items-center gap-3 sm:gap-4">
+                
+                <!-- Direct Instagram Link -->
+                <a href="https://www.instagram.com/_delytis_" target="_blank" rel="noopener noreferrer" 
+                   class="hidden sm:flex items-center gap-2 text-[11px] tracking-widest font-light hover:opacity-90 transition-all bg-brand-bronze/10 dark:bg-white/10 hover:bg-brand-bronze/20 dark:hover:bg-white/20 text-brand-bronze dark:text-white rounded-full px-4 py-2 border border-brand-bronze/20 dark:border-white/15 backdrop-blur-sm focus:outline-none"
+                   aria-label="Follow @_delytis_ on Instagram">
+                    <i data-lucide="instagram" class="w-3.5 h-3.5 text-brand-gold"></i>
+                    <span>@_delytis_</span>
+                </a>
+
+                <!-- Dark / Light Theme Toggle -->
+                <button id="theme-toggle" type="button" 
+                        class="p-2.5 rounded-full bg-brand-bronze/10 dark:bg-white/10 text-brand-bronze dark:text-neutral-200 hover:text-black dark:hover:text-white border border-brand-bronze/20 dark:border-white/15 backdrop-blur-sm transition-colors focus:outline-none" 
+                        aria-label="Toggle visual theme">
+                    <i data-lucide="sun" id="theme-icon-sun" class="w-4 h-4"></i>
+                    <i data-lucide="moon" id="theme-icon-moon" class="w-4 h-4 hidden"></i>
+                </button>
+
+                <!-- Mobile Hamburger Button -->
+                <button id="mobile-menu-btn" type="button" 
+                        class="md:hidden p-2.5 rounded-full bg-brand-bronze/10 dark:bg-white/10 text-brand-bronze dark:text-neutral-200 hover:text-black dark:hover:text-white border border-brand-bronze/20 dark:border-white/15 backdrop-blur-sm focus:outline-none" 
+                        aria-expanded="false" aria-controls="mobile-menu" aria-label="Toggle menu">
+                    <i data-lucide="menu" id="menu-icon-open" class="w-5 h-5"></i>
+                    <i data-lucide="x" id="menu-icon-close" class="w-5 h-5 hidden"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden mobile-glass-dropdown mt-4 rounded-3xl shadow-2xl p-6 transition-all border border-brand-pastelBorder dark:border-white/10">
+            <nav class="flex flex-col gap-4 text-xs tracking-superwide uppercase font-light text-center">
+                <a href="#home" class="mobile-nav-link py-2.5 border-b border-brand-pastelBorder/60 dark:border-white/5 text-neutral-800 dark:text-neutral-200">Home</a>
+                <a href="#quality" class="mobile-nav-link py-2.5 border-b border-brand-pastelBorder/60 dark:border-white/5 text-neutral-800 dark:text-neutral-200">Quality</a>
+                <a href="#collections" class="mobile-nav-link py-2.5 border-b border-brand-pastelBorder/60 dark:border-white/5 text-neutral-800 dark:text-neutral-200">Collections</a>
+                <a href="#instagram" class="mobile-nav-link py-2.5 border-b border-brand-pastelBorder/60 dark:border-white/5 text-neutral-800 dark:text-neutral-200">Instagram</a>
+                
+                <a href="https://www.instagram.com/_delytis_" target="_blank" rel="noopener noreferrer" 
+                   class="flex items-center justify-center gap-2 mt-2 text-xs tracking-widest bg-gradient-to-r from-brand-pastelBlush to-brand-pastelGold dark:from-neutral-800 dark:to-stone-800 text-brand-bronze dark:text-white rounded-full py-3 shadow-sm border border-brand-pastelBorder dark:border-white/10">
+                    <i data-lucide="instagram" class="w-4 h-4 text-brand-gold"></i>
+                    <span>@_delytis_</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- HERO / LANDING SECTION -->
+        <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden pt-32 pb-20">
+            <!-- Dynamic Fast Background Image Carousel & Faded Color Gradient -->
+            <div class="absolute inset-0 z-0 bg-brand-pastelCream dark:bg-neutral-950 transition-colors">
+                <!-- Slide 1: Necklaces -->
+                <div class="hero-bg-slide active" style="background-image: url('https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=1920&auto=format&fit=crop');" aria-hidden="true"></div>
+                <!-- Slide 2: Bracelets -->
+                <div class="hero-bg-slide" style="background-image: url('https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=1920&auto=format&fit=crop');" aria-hidden="true"></div>
+                <!-- Slide 3: Bangles -->
+                <div class="hero-bg-slide" style="background-image: url('https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=1920&auto=format&fit=crop');" aria-hidden="true"></div>
+                <!-- Slide 4: Earrings -->
+                <div class="hero-bg-slide" style="background-image: url('https://images.unsplash.com/photo-1630019852942-f89202989a59?q=80&w=1920&auto=format&fit=crop');" aria-hidden="true"></div>
+                
+                <!-- Editorial Subtle Faded Pastel Gradient Overlay -->
+                <div class="absolute inset-0 bg-gradient-to-t from-brand-pastelCream via-brand-pastelBlush/40 to-brand-pastelCream/90 dark:from-neutral-950 dark:via-neutral-950/70 dark:to-neutral-950/90"></div>
+                
+                <!-- Ambient Subtle Aura Glow Spot -->
+                <div class="ambient-glow-1 absolute top-1/3 left-1/2 -translate-x-1/2 w-[700px] h-[700px] rounded-full pointer-events-none"></div>
+            </div>
+
+            <!-- Hero Main Editorial Content -->
+            <div class="relative z-10 max-w-4xl mx-auto px-6 text-center pt-12 pb-12">
+                
+                <!-- Pastel Tagline Pill -->
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full pastel-glow border border-brand-pastelBorder/80 dark:border-white/10 shadow-sm mb-8 fade-in-up">
+                    <span class="w-1.5 h-1.5 rounded-full bg-brand-gold animate-pulse"></span>
+                    <span class="text-[11px] uppercase tracking-superwide text-brand-bronze dark:text-neutral-200 font-medium">
+                        Premium Anti-Tarnish Jewellery
+                    </span>
+                </div>
+
+                <!-- Main Brand Emblem Header -->
+                <div class="flex flex-col items-center mb-8 fade-in-up">
+                    <div class="relative inline-flex items-center justify-center">
+                        <h1 class="font-logo-title text-6xl sm:text-8xl md:text-9xl font-normal tracking-wide text-brand-bronze dark:text-brand-softGold transition-colors">
+                            Delytis
+                        </h1>
+                        <svg class="w-6 h-6 sm:w-9 sm:h-9 -ml-2 -mt-8 sm:-mt-12 text-brand-gold fill-current animate-pulse" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 0L14.59 9.41L24 12L14.59 14.59L12 24L9.41 14.59L0 12L9.41 9.41L12 0Z"/>
+                        </svg>
+                    </div>
+                    <span class="text-xs sm:text-sm tracking-[0.45em] uppercase font-light text-brand-bronze/80 dark:text-neutral-400 -mt-1 sm:-mt-2">
+                        JEWELLERY
+                    </span>
+                </div>
+
+                <!-- Supporting Brand Statement -->
+                <p class="font-serif-title text-xl sm:text-2xl md:text-3xl font-light text-neutral-800 dark:text-neutral-200 mb-4 max-w-2xl mx-auto tracking-wide">
+                    "Timeless shine. Everyday elegance."
+                </p>
+
+                <p class="text-xs sm:text-sm tracking-wide font-light text-neutral-600 dark:text-neutral-400 mb-12 max-w-lg mx-auto leading-relaxed">
+                    Discover refined jewellery designed to complement every moment. Crafted for longevity and timeless grace.
+                </p>
+
+                <!-- Hero Call To Action Buttons -->
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
+                    <a href="#collections" class="w-full sm:w-auto px-8 py-4 rounded-full bg-brand-bronze text-white hover:bg-[#634920] dark:bg-white dark:text-brand-charcoal dark:hover:bg-neutral-200 text-xs uppercase tracking-widest font-medium transition-all duration-300 focus:outline-none shadow-md">
+                        Explore Collections
+                    </a>
+                    
+                    <a href="https://www.instagram.com/_delytis_" target="_blank" rel="noopener noreferrer" 
+                       class="w-full sm:w-auto px-8 py-4 rounded-full bg-gradient-to-r from-brand-pastelBlush to-brand-pastelGold dark:from-neutral-800 dark:to-stone-800 text-brand-bronze dark:text-white text-xs uppercase tracking-widest font-medium transition-all duration-300 hover:opacity-90 focus:outline-none flex items-center justify-center gap-2 shadow-sm border border-brand-pastelBorder dark:border-white/10">
+                        <i data-lucide="instagram" class="w-3.5 h-3.5 text-brand-gold"></i>
+                        <span>Visit Instagram</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <a href="#quality" class="absolute bottom-6 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 text-xs uppercase tracking-widest text-neutral-500 hover:text-brand-bronze dark:hover:text-white transition-colors duration-300" aria-label="Scroll to Quality section">
+                <span class="text-[10px] tracking-widest">Explore DELYTIS</span>
+                <i data-lucide="chevron-down" class="w-4 h-4 animate-bounce"></i>
+            </a>
+        </section>
+
+        <!-- QUALITY / MATERIAL SECTION -->
+        <section id="quality" class="relative py-24 md:py-36 px-6 md:px-12 border-t border-brand-pastelBorder/60 dark:border-white/5 bg-gradient-to-b from-brand-pastelCream via-brand-pastelSage/30 to-brand-pastelCream dark:from-neutral-950 dark:via-neutral-900/60 dark:to-neutral-950 transition-colors duration-400 overflow-hidden">
+            <!-- Background Soft Faded Aura Glow -->
+            <div class="ambient-glow-2 absolute top-1/2 right-10 -translate-y-1/2 w-[550px] h-[550px] rounded-full pointer-events-none"></div>
+
+            <div class="max-w-6xl mx-auto relative z-10">
+                <!-- Section Header -->
+                <div class="text-center max-w-3xl mx-auto mb-20 fade-in-up">
+                    <span class="inline-block px-3.5 py-1 rounded-full bg-brand-pastelRose/80 dark:bg-neutral-800 text-[11px] uppercase tracking-superwide text-brand-bronze dark:text-neutral-300 mb-4 font-medium border border-brand-pastelBorder dark:border-white/10">Craftsmanship & Durability</span>
+                    <h2 class="font-serif-title text-3xl sm:text-5xl font-light tracking-wide uppercase mb-6 text-neutral-900 dark:text-white">
+                        Crafted for Everyday Shine
+                    </h2>
+                    <p class="text-sm sm:text-base text-neutral-700 dark:text-neutral-300 leading-relaxed font-light">
+                        Designed for everyday elegance, DELYTIS jewellery combines refined aesthetics with the practicality of stainless steel. Our anti-tarnish jewellery is created to help maintain its polished appearance through everyday wear.
+                    </p>
+                </div>
+
+                <!-- 4 Quality Principles Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10">
+                    <!-- Principle 01 -->
+                    <div class="border-t border-brand-pastelGold dark:border-white/10 pt-8 fade-in-up">
+                        <span class="inline-block font-serif-title text-lg px-3.5 py-1 rounded-full bg-brand-pastelBlush dark:bg-neutral-800 text-brand-gold mb-4 border border-brand-pastelBorder dark:border-white/10">01</span>
+                        <h3 class="text-xs uppercase tracking-widest font-medium mb-3 text-brand-bronze dark:text-white">Anti-Tarnish</h3>
+                        <p class="text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed font-light">
+                            Designed to help maintain its refined finish with everyday use, keeping your pieces vibrant over time.
+                        </p>
+                    </div>
+
+                    <!-- Principle 02 -->
+                    <div class="border-t border-brand-pastelGold dark:border-white/10 pt-8 fade-in-up" style="transition-delay: 100ms;">
+                        <span class="inline-block font-serif-title text-lg px-3.5 py-1 rounded-full bg-brand-pastelBlush dark:bg-neutral-800 text-brand-gold mb-4 border border-brand-pastelBorder dark:border-white/10">02</span>
+                        <h3 class="text-xs uppercase tracking-widest font-medium mb-3 text-brand-bronze dark:text-white">Stainless Steel</h3>
+                        <p class="text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed font-light">
+                            Built around durable stainless steel jewellery materials offering strength and resilience for active lifestyles.
+                        </p>
+                    </div>
+
+                    <!-- Principle 03 -->
+                    <div class="border-t border-brand-pastelGold dark:border-white/10 pt-8 fade-in-up" style="transition-delay: 200ms;">
+                        <span class="inline-block font-serif-title text-lg px-3.5 py-1 rounded-full bg-brand-pastelBlush dark:bg-neutral-800 text-brand-gold mb-4 border border-brand-pastelBorder dark:border-white/10">03</span>
+                        <h3 class="text-xs uppercase tracking-widest font-medium mb-3 text-brand-bronze dark:text-white">Everyday Elegance</h3>
+                        <p class="text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed font-light">
+                            Minimal, versatile designs intended to seamlessly complement both modern daywear and evening ensembles.
+                        </p>
+                    </div>
+
+                    <!-- Principle 04 -->
+                    <div class="border-t border-brand-pastelGold dark:border-white/10 pt-8 fade-in-up" style="transition-delay: 300ms;">
+                        <span class="inline-block font-serif-title text-lg px-3.5 py-1 rounded-full bg-brand-pastelBlush dark:bg-neutral-800 text-brand-gold mb-4 border border-brand-pastelBorder dark:border-white/10">04</span>
+                        <h3 class="text-xs uppercase tracking-widest font-normal mb-3 text-brand-bronze dark:text-white">Timeless Style</h3>
+                        <p class="text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed font-light">
+                            A refined aesthetic designed to transcend short-lived trends and remain effortless across occasions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- COLLECTIONS / PRODUCT DETAILS SHOWCASE SECTION -->
+        <section id="collections" class="py-24 md:py-36 px-6 md:px-12 bg-gradient-to-b from-brand-pastelCream via-brand-pastelGold/30 to-brand-pastelCream dark:from-neutral-950 dark:via-neutral-900/90 dark:to-neutral-950 text-neutral-900 dark:text-white border-t border-brand-pastelBorder/60 dark:border-white/10 transition-colors duration-400 relative overflow-hidden">
+            <!-- Background Ambient Soft Faded Glow -->
+            <div class="ambient-glow-1 absolute top-0 right-0 w-[600px] h-[600px] rounded-full pointer-events-none"></div>
+            <div class="ambient-glow-2 absolute bottom-0 left-0 w-[600px] h-[600px] rounded-full pointer-events-none"></div>
+
+            <div class="max-w-7xl mx-auto relative z-10">
+                <!-- Section Top Header & Category Filter Pills -->
+                <div class="flex flex-col lg:flex-row lg:items-end justify-between mb-16 fade-in-up gap-8">
+                    <div>
+                        <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-pastelBlush dark:bg-white/10 text-[11px] uppercase tracking-superwide text-brand-bronze dark:text-brand-softGold font-medium mb-4 border border-brand-pastelBorder dark:border-white/10">
+                            <span>Bespoke Product Catalog Showcase</span>
+                        </div>
+                        <h2 class="font-serif-title text-4xl sm:text-6xl font-light tracking-wide uppercase text-neutral-900 dark:text-white">
+                            The DELYTIS Collections
+                        </h2>
+                    </div>
+
+                    <!-- Filter Tabs -->
+                    <div class="flex flex-wrap items-center gap-2" id="category-filter-container">
+                        <button data-filter="all" class="cat-filter-btn active px-4 py-2 rounded-full text-xs uppercase tracking-widest transition-all bg-brand-bronze text-white dark:bg-white dark:text-black font-medium shadow-sm">All Pieces</button>
+                        <button data-filter="necklaces" class="cat-filter-btn px-4 py-2 rounded-full text-xs uppercase tracking-widest transition-all bg-brand-pastelBlush/80 dark:bg-white/10 hover:bg-brand-pastelBlush dark:hover:bg-white/20 text-neutral-800 dark:text-neutral-300 border border-brand-pastelBorder dark:border-white/5 font-light">Necklaces</button>
+                        <button data-filter="bracelets" class="cat-filter-btn px-4 py-2 rounded-full text-xs uppercase tracking-widest transition-all bg-brand-pastelBlush/80 dark:bg-white/10 hover:bg-brand-pastelBlush dark:hover:bg-white/20 text-neutral-800 dark:text-neutral-300 border border-brand-pastelBorder dark:border-white/5 font-light">Bracelets</button>
+                        <button data-filter="bangles" class="cat-filter-btn px-4 py-2 rounded-full text-xs uppercase tracking-widest transition-all bg-brand-pastelBlush/80 dark:bg-white/10 hover:bg-brand-pastelBlush dark:hover:bg-white/20 text-neutral-800 dark:text-neutral-300 border border-brand-pastelBorder dark:border-white/5 font-light">Bangles</button>
+                        <button data-filter="earrings" class="cat-filter-btn px-4 py-2 rounded-full text-xs uppercase tracking-widest transition-all bg-brand-pastelBlush/80 dark:bg-white/10 hover:bg-brand-pastelBlush dark:hover:bg-white/20 text-neutral-800 dark:text-neutral-300 border border-brand-pastelBorder dark:border-white/5 font-light">Earrings</button>
+                    </div>
+                </div>
+
+                <!-- Product & Category Showcase Grid -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12" id="collections-grid">
+                    
+                    <!-- 01 — NECKLACES -->
+                    <article data-category="necklaces" class="cat-card group relative min-h-[560px] rounded-3xl overflow-hidden bg-brand-pastelCream/90 dark:bg-neutral-900/80 backdrop-blur-md flex flex-col justify-between p-8 sm:p-12 transition-all duration-700 shadow-lg dark:shadow-2xl border border-brand-pastelBorder dark:border-white/10 hover:border-brand-gold/60 fade-in-up">
+                        <!-- High Resolution Photography Background -->
+                        <div class="absolute inset-0 z-0 opacity-25 dark:opacity-40 group-hover:opacity-45 dark:group-hover:opacity-60 group-hover:scale-105 transition-all duration-700 ease-out bg-cover bg-center"
+                             style="background-image: url('https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=1200&auto=format&fit=crop');">
+                        </div>
+                        <div class="absolute inset-0 z-0 bg-gradient-to-t from-brand-pastelCream via-brand-pastelCream/80 to-transparent dark:from-neutral-950 dark:via-neutral-950/60 dark:to-transparent"></div>
+
+                        <!-- Header Top Specs -->
+                        <div class="relative z-10 flex items-start justify-between">
+                            <div>
+                                <span class="text-xs tracking-superwide text-brand-bronze dark:text-brand-softGold uppercase font-medium block mb-1">01 — COLLECTION</span>
+                                <h3 class="font-serif-title text-3xl sm:text-4xl font-light tracking-widest uppercase text-neutral-900 dark:text-white">
+                                    Necklaces
+                                </h3>
+                            </div>
+                            <!-- Category Badge -->
+                            <span class="text-[10px] uppercase tracking-widest bg-brand-pastelBlush dark:bg-brand-pastelBlush/20 text-brand-bronze dark:text-brand-pastelRose border border-brand-pastelBorder dark:border-brand-pastelRose/20 px-3 py-1.5 rounded-full font-medium">
+                                Anti-Tarnish Finish
+                            </span>
+                        </div>
+
+                        <!-- Product Details & Specifications Drawer -->
+                        <div class="relative z-10 pt-16">
+                            <!-- Feature Chips -->
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span class="text-[11px] font-light bg-white/90 dark:bg-black/60 text-neutral-800 dark:text-neutral-300 px-3 py-1 rounded-full border border-brand-pastelBorder dark:border-white/10 shadow-sm">316L Stainless Steel</span>
+                                <span class="text-[11px] font-light bg-white/90 dark:bg-black/60 text-neutral-800 dark:text-neutral-300 px-3 py-1 rounded-full border border-brand-pastelBorder dark:border-white/10 shadow-sm">Water & Sweat Resistant</span>
+                                <span class="text-[11px] font-light bg-white/90 dark:bg-black/60 text-neutral-800 dark:text-neutral-300 px-3 py-1 rounded-full border border-brand-pastelBorder dark:border-white/10 shadow-sm">Layering Friendly</span>
+                            </div>
+
+                            <p class="text-xs sm:text-sm text-neutral-700 dark:text-neutral-300 font-light max-w-md mb-8 leading-relaxed">
+                                Refined silhouettes designed to add an effortless finishing touch to any neckline. Features adjustable extension clasps and polished lustrous link structures.
+                            </p>
+
+                            <!-- Interactive Detail Actions -->
+                            <div class="flex flex-wrap items-center gap-4 pt-4 border-t border-brand-pastelBorder dark:border-white/10">
+                                <button onclick="openCategoryModal('Necklaces', 'Discover our collection of anti-tarnish stainless steel necklaces. Crafted for daily wear, resistant to sweat and water, with minimal sleek silhouettes perfect for solitaire wear or effortless layering.')"
+                                        class="px-5 py-2.5 rounded-full bg-brand-pastelBlush/80 dark:bg-white/10 hover:bg-brand-pastelBlush dark:hover:bg-white/20 text-xs uppercase tracking-widest text-neutral-900 dark:text-white transition-all flex items-center gap-2 border border-brand-pastelBorder dark:border-white/10">
+                                    <i data-lucide="info" class="w-3.5 h-3.5 text-brand-gold"></i>
+                                    <span>View Specs & Styling</span>
+                                </button>
+
+                                <a href="https://www.instagram.com/_delytis_" target="_blank" rel="noopener noreferrer" 
+                                   class="px-5 py-2.5 rounded-full bg-brand-bronze text-white dark:bg-gradient-to-r dark:from-brand-pastelBlush dark:to-brand-pastelGold dark:text-brand-charcoal text-xs uppercase tracking-widest font-medium hover:opacity-90 transition-all flex items-center gap-2 shadow-sm">
+                                    <span>Enquire @_delytis_</span>
+                                    <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 02 — BRACELETS -->
+                    <article data-category="bracelets" class="cat-card group relative min-h-[560px] rounded-3xl overflow-hidden bg-brand-pastelCream/90 dark:bg-neutral-900/80 backdrop-blur-md flex flex-col justify-between p-8 sm:p-12 transition-all duration-700 shadow-lg dark:shadow-2xl border border-brand-pastelBorder dark:border-white/10 hover:border-brand-gold/60 fade-in-up" style="transition-delay: 150ms;">
+                        <!-- High Resolution Photography Background -->
+                        <div class="absolute inset-0 z-0 opacity-25 dark:opacity-40 group-hover:opacity-45 dark:group-hover:opacity-60 group-hover:scale-105 transition-all duration-700 ease-out bg-cover bg-center"
+                             style="background-image: url('https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=1200&auto=format&fit=crop');">
+                        </div>
+                        <div class="absolute inset-0 z-0 bg-gradient-to-t from-brand-pastelCream via-brand-pastelCream/80 to-transparent dark:from-neutral-950 dark:via-neutral-950/60 dark:to-transparent"></div>
+
+                        <!-- Header Top Specs -->
+                        <div class="relative z-10 flex items-start justify-between">
+                            <div>
+                                <span class="text-xs tracking-superwide text-brand-bronze dark:text-brand-softGold uppercase font-medium block mb-1">02 — COLLECTION</span>
+                                <h3 class="font-serif-title text-3xl sm:text-4xl font-light tracking-widest uppercase text-neutral-900 dark:text-white">
+                                    Bracelets
+                                </h3>
+                            </div>
+                            <!-- Category Badge -->
+                            <span class="text-[10px] uppercase tracking-widest bg-brand-pastelSage dark:bg-brand-pastelSage/20 text-neutral-800 dark:text-brand-pastelSage border border-brand-pastelBorder dark:border-brand-pastelSage/20 px-3 py-1.5 rounded-full font-medium">
+                                Daily Wear Seal
+                            </span>
+                        </div>
+
+                        <!-- Product Details & Specifications Drawer -->
+                        <div class="relative z-10 pt-16">
+                            <!-- Feature Chips -->
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span class="text-[11px] font-light bg-white/90 dark:bg-black/60 text-neutral-800 dark:text-neutral-300 px-3 py-1 rounded-full border border-brand-pastelBorder dark:border-white/10 shadow-sm">Ergonomic Fit</span>
+                                <span class="text-[11px] font-light bg-white/90 dark:bg-black/60 text-neutral-800 dark:text-neutral-300 px-3 py-1 rounded-full border border-brand-pastelBorder dark:border-white/10 shadow-sm">18K PVD Plated Option</span>
+                                <span class="text-[11px] font-light bg-white/90 dark:bg-black/60 text-neutral-800 dark:text-neutral-300 px-3 py-1 rounded-full border border-brand-pastelBorder dark:border-white/10 shadow-sm">Hypoallergenic</span>
+                            </div>
+
+                            <p class="text-xs sm:text-sm text-neutral-700 dark:text-neutral-300 font-light max-w-md mb-8 leading-relaxed">
+                                Elegant wristwear designed for subtle everyday styling. Engineered with durable links and secure closures to accompany active routines.
+                            </p>
+
+                            <!-- Interactive Detail Actions -->
+                            <div class="flex flex-wrap items-center gap-4 pt-4 border-t border-brand-pastelBorder dark:border-white/10">
+                                <button onclick="openCategoryModal('Bracelets', 'DELYTIS wristwear offers non-tarnish brilliance, designed for all-day comfort. Features scratch-resistant stainless steel core construction and subtle polished details.')"
+                                        class="px-5 py-2.5 rounded-full bg-brand-pastelBlush/80 dark:bg-white/10 hover:bg-brand-pastelBlush dark:hover:bg-white/20 text-xs uppercase tracking-widest text-neutral-900 dark:text-white transition-all flex items-center gap-2 border border-brand-pastelBorder dark:border-white/10">
+                                    <i data-lucide="info" class="w-3.5 h-3.5 text-brand-gold"></i>
+                                    <span>View Specs & Styling</span>
+                                </button>
+
+                                <a href="https://www.instagram.com/_delytis_" target="_blank" rel="noopener noreferrer" 
+                                   class="px-5 py-2.5 rounded-full bg-brand-bronze text-white dark:bg-gradient-to-r dark:from-brand-pastelBlush dark:to-brand-pastelGold dark:text-brand-charcoal text-xs uppercase tracking-widest font-medium hover:opacity-90 transition-all flex items-center gap-2 shadow-sm">
+                                    <span>Enquire @_delytis_</span>
+                                    <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 03 — BANGLES -->
+                    <article data-category="bangles" class="cat-card group relative min-h-[560px] rounded-3xl overflow-hidden bg-brand-pastelCream/90 dark:bg-neutral-900/80 backdrop-blur-md flex flex-col justify-between p-8 sm:p-12 transition-all duration-700 shadow-lg dark:shadow-2xl border border-brand-pastelBorder dark:border-white/10 hover:border-brand-gold/60 fade-in-up">
+                        <!-- High Resolution Photography Background -->
+                        <div class="absolute inset-0 z-0 opacity-25 dark:opacity-40 group-hover:opacity-45 dark:group-hover:opacity-60 group-hover:scale-105 transition-all duration-700 ease-out bg-cover bg-center"
+                             style="background-image: url('https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=1200&auto=format&fit=crop');">
+                        </div>
+                        <div class="absolute inset-0 z-0 bg-gradient-to-t from-brand-pastelCream via-brand-pastelCream/80 to-transparent dark:from-neutral-950 dark:via-neutral-950/60 dark:to-transparent"></div>
+
+                        <!-- Header Top Specs -->
+                        <div class="relative z-10 flex items-start justify-between">
+                            <div>
+                                <span class="text-xs tracking-superwide text-brand-bronze dark:text-brand-softGold uppercase font-medium block mb-1">03 — COLLECTION</span>
+                                <h3 class="font-serif-title text-3xl sm:text-4xl font-light tracking-widest uppercase text-neutral-900 dark:text-white">
+                                    Bangles
+                                </h3>
+                            </div>
+                            <!-- Category Badge -->
+                            <span class="text-[10px] uppercase tracking-widest bg-brand-pastelGold dark:bg-brand-pastelGold/20 text-brand-bronze dark:text-brand-softGold border border-brand-pastelBorder dark:border-brand-pastelGold/20 px-3 py-1.5 rounded-full font-medium">
+                                Sculpted Form
+                            </span>
+                        </div>
+
+                        <!-- Product Details & Specifications Drawer -->
+                        <div class="relative z-10 pt-16">
+                            <!-- Feature Chips -->
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span class="text-[11px] font-light bg-white/90 dark:bg-black/60 text-neutral-800 dark:text-neutral-300 px-3 py-1 rounded-full border border-brand-pastelBorder dark:border-white/10 shadow-sm">Precision Hinge Clasp</span>
+                                <span class="text-[11px] font-light bg-white/90 dark:bg-black/60 text-neutral-800 dark:text-neutral-300 px-3 py-1 rounded-full border border-brand-pastelBorder dark:border-white/10 shadow-sm">Non-Oxidizing</span>
+                                <span class="text-[11px] font-light bg-white/90 dark:bg-black/60 text-neutral-800 dark:text-neutral-300 px-3 py-1 rounded-full border border-brand-pastelBorder dark:border-white/10 shadow-sm">Seamless Contour</span>
+                            </div>
+
+                            <p class="text-xs sm:text-sm text-neutral-700 dark:text-neutral-300 font-light max-w-md mb-8 leading-relaxed">
+                                Timeless structured forms that bring understated character and polished silhouette definition to modern wardrobes.
+                            </p>
+
+                            <!-- Interactive Detail Actions -->
+                            <div class="flex flex-wrap items-center gap-4 pt-4 border-t border-brand-pastelBorder dark:border-white/10">
+                                <button onclick="openCategoryModal('Bangles', 'Solid stainless steel construction with long-lasting anti-tarnish coating. Features invisible push-release safety clasps and smooth inner contours for high comfort.')"
+                                        class="px-5 py-2.5 rounded-full bg-brand-pastelBlush/80 dark:bg-white/10 hover:bg-brand-pastelBlush dark:hover:bg-white/20 text-xs uppercase tracking-widest text-neutral-900 dark:text-white transition-all flex items-center gap-2 border border-brand-pastelBorder dark:border-white/10">
+                                    <i data-lucide="info" class="w-3.5 h-3.5 text-brand-gold"></i>
+                                    <span>View Specs & Styling</span>
+                                </button>
+
+                                <a href="https://www.instagram.com/_delytis_" target="_blank" rel="noopener noreferrer" 
+                                   class="px-5 py-2.5 rounded-full bg-brand-bronze text-white dark:bg-gradient-to-r dark:from-brand-pastelBlush dark:to-brand-pastelGold dark:text-brand-charcoal text-xs uppercase tracking-widest font-medium hover:opacity-90 transition-all flex items-center gap-2 shadow-sm">
+                                    <span>Enquire @_delytis_</span>
+                                    <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 04 — EARRINGS -->
+                    <article data-category="earrings" class="cat-card group relative min-h-[560px] rounded-3xl overflow-hidden bg-brand-pastelCream/90 dark:bg-neutral-900/80 backdrop-blur-md flex flex-col justify-between p-8 sm:p-12 transition-all duration-700 shadow-lg dark:shadow-2xl border border-brand-pastelBorder dark:border-white/10 hover:border-brand-gold/60 fade-in-up" style="transition-delay: 150ms;">
+                        <!-- High Resolution Photography Background -->
+                        <div class="absolute inset-0 z-0 opacity-25 dark:opacity-40 group-hover:opacity-45 dark:group-hover:opacity-60 group-hover:scale-105 transition-all duration-700 ease-out bg-cover bg-center"
+                             style="background-image: url('https://images.unsplash.com/photo-1630019852942-f89202989a59?q=80&w=1200&auto=format&fit=crop');">
+                        </div>
+                        <div class="absolute inset-0 z-0 bg-gradient-to-t from-brand-pastelCream via-brand-pastelCream/80 to-transparent dark:from-neutral-950 dark:via-neutral-950/60 dark:to-transparent"></div>
+
+                        <!-- Header Top Specs -->
+                        <div class="relative z-10 flex items-start justify-between">
+                            <div>
+                                <span class="text-xs tracking-superwide text-brand-bronze dark:text-brand-softGold uppercase font-medium block mb-1">04 — COLLECTION</span>
+                                <h3 class="font-serif-title text-3xl sm:text-4xl font-light tracking-widest uppercase text-neutral-900 dark:text-white">
+                                    Earrings
+                                </h3>
+                            </div>
+                            <!-- Category Badge -->
+                            <span class="text-[10px] uppercase tracking-widest bg-brand-pastelRose dark:bg-brand-pastelRose/20 text-brand-bronze dark:text-brand-pastelRose border border-brand-pastelBorder dark:border-brand-pastelRose/20 px-3 py-1.5 rounded-full font-medium">
+                                Sensitive Skin Safe
+                            </span>
+                        </div>
+
+                        <!-- Product Details & Specifications Drawer -->
+                        <div class="relative z-10 pt-16">
+                            <!-- Feature Chips -->
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span class="text-[11px] font-light bg-white/90 dark:bg-black/60 text-neutral-800 dark:text-neutral-300 px-3 py-1 rounded-full border border-brand-pastelBorder dark:border-white/10 shadow-sm">Surgical Steel Posts</span>
+                                <span class="text-[11px] font-light bg-white/90 dark:bg-black/60 text-neutral-800 dark:text-neutral-300 px-3 py-1 rounded-full border border-brand-pastelBorder dark:border-white/10 shadow-sm">Featherweight Comfort</span>
+                                <span class="text-[11px] font-light bg-white/90 dark:bg-black/60 text-neutral-800 dark:text-neutral-300 px-3 py-1 rounded-full border border-brand-pastelBorder dark:border-white/10 shadow-sm">Non-Tarnish Coating</span>
+                            </div>
+
+                            <p class="text-xs sm:text-sm text-neutral-700 dark:text-neutral-300 font-light max-w-md mb-8 leading-relaxed">
+                                Versatile hoops, studs, and drops designed to frame the face with subtle radiance while staying completely comfortable for sensitive ears.
+                            </p>
+
+                            <!-- Interactive Detail Actions -->
+                            <div class="flex flex-wrap items-center gap-4 pt-4 border-t border-brand-pastelBorder dark:border-white/10">
+                                <button onclick="openCategoryModal('Earrings', 'Hypoallergenic surgical steel posts designed specifically for delicate ears. Water-resistant finish ensuring long-lasting shine without tarnish or discoloration.')"
+                                        class="px-5 py-2.5 rounded-full bg-brand-pastelBlush/80 dark:bg-white/10 hover:bg-brand-pastelBlush dark:hover:bg-white/20 text-xs uppercase tracking-widest text-neutral-900 dark:text-white transition-all flex items-center gap-2 border border-brand-pastelBorder dark:border-white/10">
+                                    <i data-lucide="info" class="w-3.5 h-3.5 text-brand-gold"></i>
+                                    <span>View Specs & Styling</span>
+                                </button>
+
+                                <a href="https://www.instagram.com/_delytis_" target="_blank" rel="noopener noreferrer" 
+                                   class="px-5 py-2.5 rounded-full bg-brand-bronze text-white dark:bg-gradient-to-r dark:from-brand-pastelBlush dark:to-brand-pastelGold dark:text-brand-charcoal text-xs uppercase tracking-widest font-medium hover:opacity-90 transition-all flex items-center gap-2 shadow-sm">
+                                    <span>Enquire @_delytis_</span>
+                                    <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CATEGORY SPECIFICATION MODAL (THEME ADAPTIVE: SOFT IVORY IN LIGHT MODE, CHARCOAL IN DARK MODE) -->
+        <div id="category-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 dark:bg-black/80 backdrop-blur-lg hidden transition-opacity duration-300 opacity-0" aria-hidden="true">
+            <div class="relative w-full max-w-xl bg-brand-pastelCream dark:bg-neutral-900 border border-brand-pastelBorder dark:border-white/10 rounded-3xl p-8 sm:p-10 shadow-2xl text-neutral-900 dark:text-white transition-colors duration-300">
+                <button onclick="closeCategoryModal()" class="absolute top-6 right-6 p-2 rounded-full bg-brand-pastelBlush dark:bg-white/10 hover:bg-brand-pastelGold/60 dark:hover:bg-white/20 text-neutral-700 dark:text-neutral-300 transition-colors" aria-label="Close modal">
+                    <i data-lucide="x" class="w-5 h-5"></i>
+                </button>
+
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-pastelGold/50 dark:bg-brand-pastelGold/20 text-brand-bronze dark:text-brand-softGold text-[11px] uppercase tracking-widest mb-4 font-medium">
+                    <span>DELYTIS Craftsmanship</span>
+                </div>
+
+                <h3 id="modal-title" class="font-serif-title text-3xl font-light tracking-wide uppercase mb-4 text-neutral-900 dark:text-white"></h3>
+                
+                <p id="modal-description" class="text-sm text-neutral-700 dark:text-neutral-300 font-light leading-relaxed mb-6"></p>
+
+                <!-- Key Specifications Checklist -->
+                <div class="bg-white/80 dark:bg-white/5 rounded-2xl p-6 border border-brand-pastelBorder dark:border-white/5 mb-8">
+                    <h4 class="text-xs uppercase tracking-widest text-brand-bronze dark:text-brand-softGold font-medium mb-4">Standard Material Guarantees</h4>
+                    <ul class="space-y-3 text-xs text-neutral-700 dark:text-neutral-300 font-light">
+                        <li class="flex items-center gap-3">
+                            <i data-lucide="check-circle" class="w-4 h-4 text-brand-gold shrink-0"></i>
+                            <span>Premium Stainless Steel (316L Grade) Base</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i data-lucide="check-circle" class="w-4 h-4 text-brand-gold shrink-0"></i>
+                            <span>Specialized Anti-Tarnish Coating</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i data-lucide="check-circle" class="w-4 h-4 text-brand-gold shrink-0"></i>
+                            <span>100% Lead-Free & Nickel-Safe Composition</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i data-lucide="check-circle" class="w-4 h-4 text-brand-gold shrink-0"></i>
+                            <span>All product details & purchases exclusively via Instagram</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="flex flex-col sm:flex-row items-center gap-4">
+                    <a href="https://www.instagram.com/_delytis_" target="_blank" rel="noopener noreferrer"
+                       class="w-full sm:w-auto flex-1 py-3.5 px-6 rounded-full bg-brand-bronze text-white dark:bg-gradient-to-r dark:from-brand-pastelBlush dark:to-brand-pastelGold dark:text-brand-charcoal font-medium text-xs uppercase tracking-widest text-center transition-all hover:opacity-90 flex items-center justify-center gap-2 shadow-md">
+                        <i data-lucide="instagram" class="w-4 h-4 text-brand-gold"></i>
+                        <span>Inquire on Instagram</span>
+                    </a>
+                    <button onclick="closeCategoryModal()" class="w-full sm:w-auto py-3.5 px-6 rounded-full bg-brand-pastelBlush dark:bg-white/10 hover:bg-brand-pastelGold/60 dark:hover:bg-white/20 text-xs uppercase tracking-widest text-neutral-800 dark:text-neutral-300 text-center transition-colors border border-brand-pastelBorder dark:border-white/10">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- INSTAGRAM CTA SECTION -->
+        <section id="instagram" class="py-24 md:py-36 px-6 md:px-12 bg-gradient-to-b from-brand-pastelBlush/40 via-brand-pastelCream to-brand-pastelGold/30 dark:from-neutral-950 dark:via-neutral-900/60 dark:to-neutral-950 border-t border-brand-pastelBorder dark:border-white/10 relative overflow-hidden transition-colors duration-400">
+            
+            <!-- Ambient Decorative Glows -->
+            <div class="ambient-glow-1 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] rounded-full pointer-events-none"></div>
+
+            <div class="max-w-6xl mx-auto relative z-10">
+                
+                <!-- Section Header -->
+                <div class="text-center max-w-3xl mx-auto mb-16 fade-in-up">
+                    <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-brand-pastelBlush dark:bg-neutral-800/80 border border-brand-pastelBorder dark:border-white/10 shadow-sm mb-6 transition-colors">
+                        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                        <span class="text-[11px] uppercase tracking-superwide text-brand-bronze dark:text-neutral-200 font-medium">Official Digital Channel</span>
+                    </div>
+
+                    <h2 class="font-serif-title text-4xl sm:text-6xl font-light tracking-wide uppercase mb-6 text-neutral-900 dark:text-white">
+                        Discover More on Instagram
+                    </h2>
+
+                    <p class="text-sm sm:text-base text-neutral-700 dark:text-neutral-300 font-light max-w-xl mx-auto mb-4 leading-relaxed">
+                        Explore our latest campaign releases, curated jewellery styling, and exclusive daily previews directly on our official Instagram profile.
+                    </p>
+
+                    <p class="text-xs uppercase tracking-widest text-brand-bronze dark:text-brand-gold font-medium">
+                        All orders and enquiries are handled exclusively via Instagram Direct Message.
+                    </p>
+                </div>
+
+                <!-- Editorial Instagram Feed Preview Grid -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mb-16 fade-in-up">
+                    
+                    <!-- Post Card 1 -->
+                    <a href="https://www.instagram.com/_delytis_" target="_blank" rel="noopener noreferrer" 
+                       class="group relative aspect-square rounded-2xl overflow-hidden bg-brand-pastelBlush dark:bg-neutral-800 shadow-md border border-brand-pastelBorder dark:border-white/10 block focus:outline-none">
+                        <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=800&auto=format&fit=crop" 
+                             alt="DELYTIS Anti-Tarnish Necklace Collection" 
+                             onerror="this.onerror=null; this.src='https://placehold.co/800x800/FAF7F2/7E5E2A?text=DELYTIS+Necklaces';"
+                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-[#2C2216]/75 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center p-4 text-center text-white">
+                            <i data-lucide="instagram" class="w-6 h-6 text-brand-softGold mb-2"></i>
+                            <span class="text-[10px] uppercase tracking-widest font-light">Necklace Campaign</span>
+                            <span class="text-[9px] text-neutral-300 mt-1">@_delytis_</span>
+                        </div>
+                    </a>
+
+                    <!-- Post Card 2 -->
+                    <a href="https://www.instagram.com/_delytis_" target="_blank" rel="noopener noreferrer" 
+                       class="group relative aspect-square rounded-2xl overflow-hidden bg-brand-pastelBlush dark:bg-neutral-800 shadow-md border border-brand-pastelBorder dark:border-white/10 block focus:outline-none">
+                        <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=800&auto=format&fit=crop" 
+                             alt="DELYTIS Anti-Tarnish Bracelet Styling" 
+                             onerror="this.onerror=null; this.src='https://placehold.co/800x800/FAF7F2/7E5E2A?text=DELYTIS+Bracelets';"
+                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-[#2C2216]/75 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center p-4 text-center text-white">
+                            <i data-lucide="instagram" class="w-6 h-6 text-brand-softGold mb-2"></i>
+                            <span class="text-[10px] uppercase tracking-widest font-light">Wristwear Edit</span>
+                            <span class="text-[9px] text-neutral-300 mt-1">@_delytis_</span>
+                        </div>
+                    </a>
+
+                    <!-- Post Card 3 -->
+                    <a href="https://www.instagram.com/_delytis_" target="_blank" rel="noopener noreferrer" 
+                       class="group relative aspect-square rounded-2xl overflow-hidden bg-brand-pastelBlush dark:bg-neutral-800 shadow-md border border-brand-pastelBorder dark:border-white/10 block focus:outline-none">
+                        <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=800&auto=format&fit=crop" 
+                             alt="DELYTIS Sculpted Bangle Features" 
+                             onerror="this.onerror=null; this.src='https://placehold.co/800x800/FAF7F2/7E5E2A?text=DELYTIS+Bangles';"
+                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-[#2C2216]/75 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center p-4 text-center text-white">
+                            <i data-lucide="instagram" class="w-6 h-6 text-brand-softGold mb-2"></i>
+                            <span class="text-[10px] uppercase tracking-widest font-light">Sculpted Bangles</span>
+                            <span class="text-[9px] text-neutral-300 mt-1">@_delytis_</span>
+                        </div>
+                    </a>
+
+                    <!-- Post Card 4 -->
+                    <a href="https://www.instagram.com/_delytis_" target="_blank" rel="noopener noreferrer" 
+                       class="group relative aspect-square rounded-2xl overflow-hidden bg-brand-pastelBlush dark:bg-neutral-800 shadow-md border border-brand-pastelBorder dark:border-white/10 block focus:outline-none">
+                        <img src="https://images.unsplash.com/photo-1630019852942-f89202989a59?q=80&w=800&auto=format&fit=crop" 
+                             alt="DELYTIS Hypoallergenic Earring Highlights" 
+                             onerror="this.onerror=null; this.src='https://placehold.co/800x800/FAF7F2/7E5E2A?text=DELYTIS+Earrings';"
+                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-[#2C2216]/75 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center p-4 text-center text-white">
+                            <i data-lucide="instagram" class="w-6 h-6 text-brand-softGold mb-2"></i>
+                            <span class="text-[10px] uppercase tracking-widest font-light">Earring Series</span>
+                            <span class="text-[9px] text-neutral-300 mt-1">@_delytis_</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- 3 Channel Value Highlights Cards -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16 fade-in-up">
+                    <div class="p-6 rounded-2xl bg-white/80 dark:bg-neutral-900/80 border border-brand-pastelBorder dark:border-white/10 backdrop-blur-md transition-all hover:shadow-md">
+                        <div class="w-10 h-10 rounded-full bg-brand-pastelBlush dark:bg-neutral-800 text-brand-gold flex items-center justify-center mb-4 border border-brand-pastelBorder dark:border-white/10">
+                            <i data-lucide="send" class="w-5 h-5"></i>
+                        </div>
+                        <h3 class="text-xs uppercase tracking-widest font-medium mb-2 text-brand-bronze dark:text-white">Direct DM Assistance</h3>
+                        <p class="text-xs text-neutral-600 dark:text-neutral-400 font-light leading-relaxed">
+                            Connect directly with our team for personalized enquiries, stock availability, and order placement.
+                        </p>
+                    </div>
+
+                    <div class="p-6 rounded-2xl bg-white/80 dark:bg-neutral-900/80 border border-brand-pastelBorder dark:border-white/10 backdrop-blur-md transition-all hover:shadow-md">
+                        <div class="w-10 h-10 rounded-full bg-brand-pastelRose dark:bg-neutral-800 text-brand-gold flex items-center justify-center mb-4 border border-brand-pastelBorder dark:border-white/10">
+                            <i data-lucide="sparkles" class="w-5 h-5"></i>
+                        </div>
+                        <h3 class="text-xs uppercase tracking-widest font-medium mb-2 text-brand-bronze dark:text-white">New Collection Drops</h3>
+                        <p class="text-xs text-neutral-600 dark:text-neutral-400 font-light leading-relaxed">
+                            Be the first to view our latest anti-tarnish arrivals and seasonal curation releases.
+                        </p>
+                    </div>
+
+                    <div class="p-6 rounded-2xl bg-white/80 dark:bg-neutral-900/80 border border-brand-pastelBorder dark:border-white/10 backdrop-blur-md transition-all hover:shadow-md">
+                        <div class="w-10 h-10 rounded-full bg-brand-pastelSage dark:bg-neutral-800 text-brand-gold flex items-center justify-center mb-4 border border-brand-pastelBorder dark:border-white/10">
+                            <i data-lucide="shield-check" class="w-5 h-5"></i>
+                        </div>
+                        <h3 class="text-xs uppercase tracking-widest font-medium mb-2 text-brand-bronze dark:text-white">Styling & Care Tips</h3>
+                        <p class="text-xs text-neutral-600 dark:text-neutral-400 font-light leading-relaxed">
+                            Discover layering recommendations, daily wear advice, and maintenance guides for lasting brilliance.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Main CTA Banner Card -->
+                <div class="bg-gradient-to-r from-brand-pastelBlush via-brand-pastelGold/50 to-brand-pastelBlush dark:from-neutral-900 dark:via-neutral-950 dark:to-neutral-900 rounded-3xl p-8 md:p-12 text-center text-neutral-900 dark:text-white border border-brand-pastelBorder dark:border-white/10 shadow-xl relative overflow-hidden fade-in-up">
+                    <div class="relative z-10 max-w-2xl mx-auto flex flex-col items-center">
+                        <div class="w-14 h-14 rounded-full bg-gradient-to-tr from-brand-pastelRose to-brand-pastelGold text-brand-bronze flex items-center justify-center mb-6 shadow-md border border-white/20">
+                            <i data-lucide="instagram" class="w-7 h-7"></i>
+                        </div>
+                        
+                        <span class="text-xs uppercase tracking-superwide text-brand-bronze dark:text-brand-softGold mb-2 font-medium">Official Instagram Account</span>
+                        
+                        <!-- Logo Emblem inside Instagram CTA -->
+                        <div class="flex items-center justify-center gap-1 my-2">
+                            <span class="font-logo-title text-4xl sm:text-5xl font-normal text-brand-bronze dark:text-white">Delytis</span>
+                            <svg class="w-5 h-5 -mt-4 text-brand-gold fill-current" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M12 0L14.59 9.41L24 12L14.59 14.59L12 24L9.41 14.59L0 12L9.41 9.41L12 0Z"/>
+                            </svg>
+                        </div>
+                        <span class="text-xs uppercase tracking-[0.35em] text-neutral-600 dark:text-neutral-400 font-light mb-4">@_delytis_</span>
+                        
+                        <p class="text-xs sm:text-sm text-neutral-700 dark:text-neutral-300 font-light mb-8 max-w-md">
+                            Tap below to open Instagram, view our full visual catalog, and send us a message to enquire or order.
+                        </p>
+
+                        <a href="https://www.instagram.com/_delytis_" target="_blank" rel="noopener noreferrer" 
+                           class="px-10 py-4 rounded-full bg-brand-bronze text-white dark:bg-gradient-to-r dark:from-brand-pastelBlush dark:to-brand-pastelGold dark:text-brand-charcoal font-medium text-xs uppercase tracking-widest transition-all duration-300 shadow-lg hover:opacity-90 flex items-center gap-3">
+                            <i data-lucide="instagram" class="w-4 h-4"></i>
+                            <span>Visit @_delytis_ on Instagram</span>
+                            <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-brand-pastelBorder dark:border-white/10 py-16 px-6 md:px-12 bg-brand-pastelCream dark:bg-neutral-950 transition-colors duration-400">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-8 mb-12">
+                
+                <!-- Enhanced Brand Logo & Statement -->
+                <a href="#home" class="flex flex-col items-center md:items-start text-center md:text-left focus:outline-none">
+                    <div class="relative flex items-center">
+                        <span class="font-logo-title text-3xl font-normal tracking-wide text-brand-bronze dark:text-brand-softGold">
+                            Delytis
+                        </span>
+                        <svg class="w-3.5 h-3.5 -ml-0.5 -mt-3.5 text-brand-gold fill-current" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 0L14.59 9.41L24 12L14.59 14.59L12 24L9.41 14.59L0 12L9.41 9.41L12 0Z"/>
+                        </svg>
+                    </div>
+                    <span class="text-[9px] tracking-[0.38em] uppercase font-light text-brand-bronze/80 dark:text-neutral-400 mt-0.5">
+                        JEWELLERY • Anti-Tarnish
+                    </span>
+                </a>
+
+                <!-- Footer Nav Links -->
+                <nav class="flex flex-wrap justify-center gap-8 text-xs uppercase tracking-widest text-neutral-700 dark:text-neutral-300 font-light">
+                    <a href="#home" class="hover:text-black dark:hover:text-white transition-colors">Home</a>
+                    <a href="#quality" class="hover:text-black dark:hover:text-white transition-colors">Quality</a>
+                    <a href="#collections" class="hover:text-black dark:hover:text-white transition-colors">Collections</a>
+                    <a href="#instagram" class="hover:text-black dark:hover:text-white transition-colors">Instagram</a>
+                </nav>
+
+                <!-- Instagram Handle Link -->
+                <a href="https://www.instagram.com/_delytis_" target="_blank" rel="noopener noreferrer" 
+                   class="flex items-center gap-2 text-xs tracking-widest text-brand-bronze dark:text-brand-gold hover:opacity-80 transition-opacity">
+                    <i data-lucide="instagram" class="w-4 h-4 text-brand-gold"></i>
+                    <span>@_delytis_</span>
+                </a>
+            </div>
+
+            <div class="border-t border-brand-pastelBorder dark:border-white/5 pt-8 flex flex-col sm:flex-row items-center justify-between text-[11px] text-neutral-600 dark:text-neutral-400 font-light gap-4 text-center sm:text-left">
+                <p>Orders & enquiries handled exclusively via Instagram @_delytis_</p>
+                <p>© 2026 DELYTIS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT LOGIC -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Initialize Lucide Icons
+            lucide.createIcons();
+
+            /* ===================================================
+               1. LIGHT / DARK THEME TOGGLE (DEFAULT: DARK MODE)
+               =================================================== */
+            const themeToggleBtn = document.getElementById('theme-toggle');
+            const sunIcon = document.getElementById('theme-icon-sun');
+            const moonIcon = document.getElementById('theme-icon-moon');
+
+            function applyTheme(theme) {
+                if (theme === 'dark') {
+                    document.documentElement.classList.add('dark');
+                    sunIcon.classList.remove('hidden');
+                    moonIcon.classList.add('hidden');
+                } else {
+                    document.documentElement.classList.remove('dark');
+                    sunIcon.classList.add('hidden');
+                    moonIcon.classList.remove('hidden');
+                }
+            }
+
+            function getInitialTheme() {
+                const savedTheme = localStorage.getItem('delytis-theme');
+                if (savedTheme) {
+                    return savedTheme;
+                }
+                // Default to DARK mode as primary brand aesthetic
+                return 'dark';
+            }
+
+            let currentTheme = getInitialTheme();
+            applyTheme(currentTheme);
+
+            themeToggleBtn.addEventListener('click', () => {
+                currentTheme = currentTheme === 'light' ? 'dark' : 'light';
+                localStorage.setItem('delytis-theme', currentTheme);
+                applyTheme(currentTheme);
+            });
+
+            /* ===================================================
+               2. MOBILE MENU TOGGLE
+               =================================================== */
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const menuIconOpen = document.getElementById('menu-icon-open');
+            const menuIconClose = document.getElementById('menu-icon-close');
+            const mobileLinks = document.querySelectorAll('.mobile-nav-link');
+
+            function toggleMobileMenu() {
+                const isOpen = mobileMenu.classList.contains('hidden');
+                if (isOpen) {
+                    mobileMenu.classList.remove('hidden');
+                    menuIconOpen.classList.add('hidden');
+                    menuIconClose.classList.remove('hidden');
+                    mobileMenuBtn.setAttribute('aria-expanded', 'true');
+                } else {
+                    mobileMenu.classList.add('hidden');
+                    menuIconOpen.classList.remove('hidden');
+                    menuIconClose.classList.add('hidden');
+                    mobileMenuBtn.setAttribute('aria-expanded', 'false');
+                }
+            }
+
+            mobileMenuBtn.addEventListener('click', toggleMobileMenu);
+
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                    menuIconOpen.classList.remove('hidden');
+                    menuIconClose.classList.add('hidden');
+                    mobileMenuBtn.setAttribute('aria-expanded', 'false');
+                });
+            });
+
+            /* ===================================================
+               3. HERO BACKGROUND AUTOMATIC FAST CROSSFADE SLIDESHOW (3s)
+               =================================================== */
+            const slides = document.querySelectorAll('.hero-bg-slide');
+            let currentSlide = 0;
+            const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+            if (!prefersReducedMotion && slides.length > 0) {
+                setInterval(() => {
+                    slides[currentSlide].classList.remove('active');
+                    currentSlide = (currentSlide + 1) % slides.length;
+                    slides[currentSlide].classList.add('active');
+                }, 3000);
+            }
+
+            /* ===================================================
+               4. SCROLL REVEAL ANIMATION
+               =================================================== */
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.12
+            };
+
+            const fadeElements = document.querySelectorAll('.fade-in-up');
+
+            const observer = new IntersectionObserver((entries, obs) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        obs.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            fadeElements.forEach(el => observer.observe(el));
+
+            /* ===================================================
+               5. CATEGORY FILTER SYSTEM
+               =================================================== */
+            const filterButtons = document.querySelectorAll('.cat-filter-btn');
+            const categoryCards = document.querySelectorAll('.cat-card');
+
+            filterButtons.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const filter = btn.getAttribute('data-filter');
+
+                    filterButtons.forEach(b => {
+                        b.className = "cat-filter-btn px-4 py-2 rounded-full text-xs uppercase tracking-widest transition-all bg-brand-pastelBlush/80 dark:bg-white/10 hover:bg-brand-pastelBlush dark:hover:bg-white/20 text-neutral-800 dark:text-neutral-300 border border-brand-pastelBorder dark:border-white/5 font-light";
+                    });
+
+                    btn.className = "cat-filter-btn active px-4 py-2 rounded-full text-xs uppercase tracking-widest transition-all bg-brand-bronze text-white dark:bg-white dark:text-black font-medium shadow-sm";
+
+                    categoryCards.forEach(card => {
+                        if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                            card.style.display = 'flex';
+                            setTimeout(() => { card.style.opacity = '1'; card.style.transform = 'scale(1)'; }, 50);
+                        } else {
+                            card.style.opacity = '0';
+                            card.style.transform = 'scale(0.96)';
+                            setTimeout(() => { card.style.display = 'none'; }, 300);
+                        }
+                    });
+                });
+            });
+        });
+
+        /* ===================================================
+           6. CATEGORY SPECIFICATION MODAL HANDLERS
+           =================================================== */
+        function openCategoryModal(title, description) {
+            const modal = document.getElementById('category-modal');
+            document.getElementById('modal-title').textContent = title;
+            document.getElementById('modal-description').textContent = description;
+            
+            modal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+            setTimeout(() => {
+                modal.classList.remove('opacity-0');
+            }, 10);
+        }
+
+        function closeCategoryModal() {
+            const modal = document.getElementById('category-modal');
+            modal.classList.add('opacity-0');
+            setTimeout(() => {
+                modal.classList.add('hidden');
+                document.body.style.overflow = 'auto';
+            }, 300);
+        }
+    </script>
+</body>
+</html>
